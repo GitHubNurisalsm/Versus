@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 43px 0 ;
+    background: black;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header-title:hover {
+    color: #C2C2C2;
+}
+
+.header-menu{
+    display: flex;
+    column-gap: 40px;
+
+}
+
+.header-link{
+    color: #00D6B4;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1ms;
+}
+
+.header-link:hover {
+    color: #C2C2C2;
+}
+
+.build{
+    padding: 226px 0 140px;
+    background: url(../img/IMAGE.png) center/cover no-repeat fixed;
+}
+
+.build-content{
+    text-align: center;
+}
+
+.build-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+    margin-bottom: 29px;
+}
+
+.build-btn{
+    padding: 10px 26px;
+    background:transparent;
+    border-radius: 3px;
+    border: 1px solid #00D6B4;
+    color: #00D6B4;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.work{
+    padding: 49px 0 101px;
+    background-color: #222;
+}
+
+.work-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.work-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 22px;
+}
+
+.work-card{
+    width: calc(33.33333% - 40px / 3);
+}
+
+.work-img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #222;
+    padding: 35px 0 36px;
+    text-align: center;
+}
+
+.footer-title{
+    color: #C2C2C2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-text{
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}
